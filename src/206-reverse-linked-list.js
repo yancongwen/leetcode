@@ -15,6 +15,7 @@
 
 /**
  * @description 方法一：迭代法，从前向后处理
+ * 两个指针向后移动
  * @param {ListNode} head
  * @return {ListNode}
  */
@@ -26,6 +27,7 @@ var reverseList = function(head) {
         prev = head
         head = next
     }
+    // 最后 head === null，prev 才是链表头
     return prev
 };
 
