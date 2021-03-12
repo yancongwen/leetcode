@@ -38,7 +38,8 @@
 
 
 /**
- * @ description 方法一：双向链表
+ * @description 方法一：双向链表
+ * 时间复杂度为 O(1)
  * @param {number} capacity
  */
 
@@ -115,10 +116,10 @@ class LRUCache {
 
 
 /**
- * @ description 方法二：直接利用数组管理顺序
+ * @description 方法二：直接利用数组管理顺序
+ * 时间复杂度为 O(nlogn)
  * @param {number} capacity
  */
-
 class LRUCache {
     constructor(capacity) {
         this.capacity = capacity
@@ -155,7 +156,7 @@ class LRUCache {
 
 
 /**
- * @ description 方法三：利用 Map 特性（Map 的遍历顺序就是插入顺序）
+ * @description 方法三：利用 Map 特性（Map 的遍历顺序就是插入顺序）
  * @param {number} capacity
  */
 

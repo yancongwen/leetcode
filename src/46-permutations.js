@@ -94,7 +94,7 @@ var permute = function(nums) {
             }
         }
     }
-    dfs(0)
+    dfs()
     return res
 }
 
