@@ -4,6 +4,7 @@
 - [46. 全排列](https://github.com/yancongwen/leetcode/blob/master/src/46-permutations.js)
 - [46. 旋转矩阵](https://github.com/yancongwen/leetcode/blob/master/src/48-rotate-image.js)
 - [101. 对称二叉树](https://github.com/yancongwen/leetcode/blob/master/src/101-symmetric-tree.js)
+- [113. 路径总和 II](https://github.com/yancongwen/leetcode/blob/master/src/113-path-sum-ii.js)
 - [134. 加油站](https://github.com/yancongwen/leetcode/blob/master/src/134-gas-station.js)
 - [141. 环形链表](https://github.com/yancongwen/leetcode/blob/master/src/141-linked-list-cycle.js)
 - [146. LRU缓存](https://github.com/yancongwen/leetcode/blob/master/src/146-lru-cache.js)
