@@ -17,13 +17,13 @@
  */
 var rotate = function(matrix) {
     let n = matrix.length
-    // 水平翻转
+    // 水平翻转：第一行和最后一行交换，以此类推
     for (let i = 0; i < Math.floor(n / 2); i++) {
         for (let j = 0; j < n; j++) {
             [matrix[i][j], matrix[n - i - 1][j]] = [matrix[n - i - 1][j], matrix[i][j]]
         }
     }
-    // 主对角线翻转
+    // 主对角线翻转：沿主对角线对称交换位置
     for (let i = 0; i < Math.floor(n / 2); i++) {
         for (let j = 0; j < i; j++) {
             [matrix[i][j], matrix[j][i]] = [matrix[j][i], matrix[i][j]]
@@ -39,7 +39,7 @@ var rotate = function(matrix) {
  */
 var rotate = function(matrix) {
     let n = matrix.length
-    let result = new Array(n).fill(0).map(() => new Array(n).fill(0))
+    let result = []
     for (let i = 0; i < n; i++) {
         let row = []
         for (let j = 0; j < n; j++) {
