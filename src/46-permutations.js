@@ -15,7 +15,7 @@ var permute = function(nums) {
     let len = nums.length
     let result = []
     if (len <= 1) {
-        return nums
+        return [nums] // 返回二维数组
     }
     for (let i = 0; i < len; i++) {
         let otherNums = [...nums.slice(0, i), ...nums.slice(i + 1)]
